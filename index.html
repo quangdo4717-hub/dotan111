@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<p> <h1> Đóng góp ý kiến cho thư viện của nhà trường </h1></p>
+
+    <form action="login.php" method="POST">
+    		<p> <h2> 1.Thông tin về người góp ý </h2></p>
+    	<p>Họ và tên: <input type="text" name = "txtTen"></p>
+    	<p>Địa chỉ email: <input type="text" name = "txtTen"></p>
+    </form>
+    <form action="login.php" method="POST">
+    	<p><h2> 2.Đóng góp ý kiến </h2></p>
+    	<p>Ý kiến đóng góp: <textarea name= "txtComment" rows= "6" cols="40"></textarea></p>
+    </form>
+    <form action ="feedback.php" method="POST">
+    	<p><h3> Thể loại cần bổ sung thêm sách </h3></p>
+    	<input type = "checkbox" name = "chkTruyenngan">Truyện ngắn <br>
+    	<input type= "checkbox"name="chkKinangsong"> Kĩ năng sống <br>
+    	<input type= "checkbox" name="chkCNTT"> công nghệ thông tin <br>
+    	<input type= "checkbox" name="chkTruyenTranh"> Truyện tranh <br>
+    	<input type= "checkbox" name="chkLichSu"> Lịch sử <br>
+    	<input type="submit" name="cmd" value="Góp ý"> <br>
+    </form>
+</head>
+</html>
